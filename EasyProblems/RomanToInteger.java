@@ -1,6 +1,6 @@
 import java.util.Map;
 
-class Solution {
+class RomanToInteger {
     public int romanToInt(String s) {
         Map<Character, Integer> romanMap = Map.of(
                 'I', 1,
