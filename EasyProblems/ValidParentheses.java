@@ -30,7 +30,8 @@ class ValidParentheses {
             
            
         }
-       
+        // if the str is empty we should return a false 
+        // if the stack is not empty it means that there are still an opening parantheses that is not closed
         return stk.empty() && !str.isEmpty();
     }
 

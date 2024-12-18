@@ -10,13 +10,17 @@ class RemoveDuplicates {
             return 0;
         }
         
+        // a Set contains unique elements, this collection is to save memory
+        // a linked hash set contains unique and sorted elements
         Set<Integer> newArr = new LinkedHashSet<>();
         for (int num : nums) {
             newArr.add(num);
         }
         
+        // convert the Set to an array 
         Integer[] uniqueArray = newArr.toArray(new Integer[0]);
     
+        // update the array given from the parameter
         for (int i = 0; i < uniqueArray.length; i++) {
             nums[i] = uniqueArray[i];
         }
