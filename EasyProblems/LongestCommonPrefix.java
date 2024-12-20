@@ -1,6 +1,7 @@
 // this is considered as an easy problem on LeetCode, but I seriously do not conider it easy
 // I had to get hints from ChatGpt 
 // I had the algorithm in my mind but with bigger complexity which is so not good
+// this solution beats 100% of LeetCode users in terms of time and 26% in terms of memory
 public class LongestCommonPrefix {
 
     public static String findLongestCommonPrefix(String[] strs) {
