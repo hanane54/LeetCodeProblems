@@ -1,10 +1,12 @@
 // returns the length of the last word in the given string 
 // words are splitted by whitespaces
+// 2ms Beats11.76% time, 42.39MB Beats6.13% memory
 public class lengthOfLastWord {
     public int lengthOfLastWord(String s) {
-        String[] wordsArray = s.split("\\s+");
-        if (s.length() >= 1 && 104 >= s.length() && wordsArray.length != 0) {
-            return wordsArray[wordsArray.length - 1].length();
+        // added the function trim to fix the bug in case the String has leading whitespaces
+        String[] wordsArray = s.trim().split("\\s+"); // Trim trailing spaces before splitting
+        if (s.length() >= 1 && s.length() <= 10000 ) {
+            return wordsArray[wordsArray.length - 1].length(); // Return the length of the last word
         }
         return -1;
     }
@@ -28,8 +30,8 @@ public class lengthOfLastWord {
         System.out.println("Test Case 3 Output: " + result3); // Expected: 6
 
         // Additional test case
-        String s4 = "a";
+        String s4 = "uPtqXtdxXsACYJOjtGNArtcvCPc    CWbfLKmlIaYQpFAYkZfltSjNjJN              hXGotGvQqyowBJgSMzoOEFQPHlA     MsbiELwZabDcGIuOlcsfVrUVxnREkgiEIzXGQiwKkBbbGLACrYYgGdNiSunIuZDCHFZvBpQIhkNTUscfOPWKwPLEKCVZDRcQGAobojPrPGhcTkeGbCODaXyGHcUXfQiYKwvifMGqFLeDUVPfdNPMaDrLcUAwnpAzDiuCSfMPWnvlDprFfinpKuyLiUNUy              IvwSPSecxcRmdwWTpuUyUngeGnE                   MJqoSSvaKThYFMOTtiIRiRCXkhq     SjpjgUqQuEcPThDjOdwogstzuQi         BpnbSHvsEcwQgrmrBugPeOtdSZG       ychzcYTJMzGJIsAFeiGXfVkZHIC            cdoAvhVnbCSmBQMRtSGbGgmEGBl kvZpjcEUMnyQcFIdYsNSrozhNoNQAHLhSAzTLUWkwGtdFapgPldNuO     jARPmJPzHeIAAensJoNzdtkqmpd   JVRwIgsASQnyAVEljpYGXftNASJlnOEktNveBbliIAPlhDEBFgkiIT         McNDtzzMfRTXNQemEeIRVawwHOp              wmqrrLGaVxQwHazcGXRTqJLaobS                  JyohRWAVyPrwOmxJXVmLMQycTlk     hiBSfOQYiQFGpMCZrVeVACLXScLALIcoRrdGDAzYYCwoFeSuARoXzAbSxXRiMHljlPmJNHerFewlDrqrPDXeyPmhxYSRbEYTqzPyBRHpdSBJnTyKZmYGSUmVTcdwmKrjwXaLamj         biywyxFhGclBVXxkefBRMqZUFnmHafaTMarCrHpvbAoAzEmBZPCZMjrTRFZaKDMmTwhanaUACHOHwkmnn  tRBONlYtbmmixijISOTruxwiUZvSrrnykhlLNNQcMitEJTwnmzIoRC   wRZkXDSJHZwSgpVpkzTNejrdtHO       NgDBGwLTDOzVWkFkMePCJYkjzKr               LcWoeabtfeoIPncVPkMzUPGfGDd gAkBXomHPeIgXlxWYpwJFHOaOAR          vTaYoKeHUDHQmXCWQRITfkZxlhhsZcVOOGZNzElYjTzrKyrZOOTztQogXvZyUmHXkHmJrOTbceszkwFFG                   QphPavmGdtUGKRCoPFibplVKbNU     izMKSANLzisuXPGbcDqSEovYaqaZEbwUXPbtQQluaubjoadJeRDczqkedbBPKsLLoswbeUwoSABIRuZTB     BnGXhFFUuxgTaxAAHLWvYeHpesfBiJhvkEWglAtqSACjfuoKkGviDlkZCnQjLEYMzstWsICqmTzrdiRhe                  XEQwwarNBdeIIQrothGhUNghLmAIFeMtepqgJgbXbqDlyIMTleCbfAzcQTmPnsvgqKkhYuSnXbnqUvwYlvYHlKWGxtKkusAixrZPiTzIuNaDXDcdhjrSovGNhkzmzAHLHbrvQzKTtHPyGopTjdRVKtdhsxWoARMdIA        jqerQEsmFodlYQtwoGjGKrMOtqG      xfiWqqEbkvATNSpawGjcGBtfyfmbMAYlUqwfVNYBApwnoxeTDxGtYeFDQFUxpPgfnAyShjUwvvYcFQjIc          mifJHNnSDbPZoWSTBbxlVJKWZYq                  HYCGXQXECCvaylaTMInWajpRhEvtJjDxAkMsirJGqbhHddkFRCOfox                fqYCsARYWOuxCYlkgzaOkRabhYw               jEnoPcPlhgUHakfZxOsIRaeKpvbparNfDEIZgVrlYuqSHscAYseOvAnWzQhUEyQCYbZMnIEDuQHxDQCsf          iqhBgubdzxzxkeNvfypCFxjtfmg      DIPruJQGKHFftRCUqBjcLQBaBGm           GilSgMRwehMQTvLmAbzsRaSnmDg               TGzxrQxamzzFKmeSKgtOgeOyjKm                 aRjHLFtSBJDTgwVtFfxMCRPzhkr       LSTiCrdNXfqgOmAGOUpLVxihRvS             wRmjzklLaIvRgwrLEncSFTeAqqBVkFEZbrFcOInylNLJYqzUtAJcNn              HPlhxNKetuZZDNsIYXBImNnDrDc             UahphttIcCmAgwLsAvesYXtYAnKStHYmlzQtMWLuhAItWpqQZWEufL";
         int result4 = solution.lengthOfLastWord(s4);
-        System.out.println("Test Case 4 Output: " + result4); // Expected: 1
+        System.out.println("Test Case 4 Output: " + result4); // Expected: 54
     }
 }
