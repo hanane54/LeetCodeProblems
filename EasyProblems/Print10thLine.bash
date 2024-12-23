@@ -1,5 +1,10 @@
 # Read from the file file.txt and output the content of the 10th line to stdout.
 #!/usr/bin/env bash
+#Runtime
+#24ms Beats 60.52%
+#Memory
+#3.94MB Beats 44.76%
+
 
 file="file.txt"
 
