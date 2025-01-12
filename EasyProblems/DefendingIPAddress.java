@@ -1,3 +1,6 @@
+// Runtime 0ms Beats 100.00%
+// Memory 41.91MB Beats 14.62%
+
 class DefendingIPAddress {
     public String defangIPaddr(String address) {
         return address.replace(".", "[.]");
