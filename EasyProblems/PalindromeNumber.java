@@ -16,7 +16,7 @@ class PalindromeNumber {
     }
 
     public static void main(String[] args) {
-        Testing test = new Testing();
+        PalindromeNumber test = new PalindromeNumber();
         
         // Test cases
         int[] numbers = {10, -121, 12321, 12345, 11, 121};

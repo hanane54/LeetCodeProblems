@@ -1,7 +1,7 @@
 // returns the length of the last word in the given string 
 // words are splitted by whitespaces
 // 2ms Beats11.76% time, 42.39MB Beats6.13% memory
-public class lengthOfLastWord {
+public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         // added the function trim to fix the bug in case the String has leading whitespaces
         String[] wordsArray = s.trim().split("\\s+"); // Trim trailing spaces before splitting
@@ -12,7 +12,7 @@ public class lengthOfLastWord {
     }
 
     public static void main(String[] args) {
-        lengthOfLastWord solution = new lengthOfLastWord();
+        LengthOfLastWord solution = new LengthOfLastWord();
 
         // Test case 1
         String s1 = "Hello World";

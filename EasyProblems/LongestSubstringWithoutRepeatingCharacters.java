@@ -1,8 +1,6 @@
 // Runtime  5ms Beats 87.39% 
 // Memory 45.05MB Beats 23.69%
 import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {

@@ -3,7 +3,7 @@
 import java.util.Map;
 import java.util.HashMap;
 
-public class Anagram {
+public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         // If lengths are different, they can't be anagrams
         if (s.length() != t.length()) {
@@ -30,7 +30,7 @@ public class Anagram {
     }
     
     public static void main(String[] args) {
-        Anagram solution = new Anagram();
+        ValidAnagram solution = new ValidAnagram();
         
         // Test Case 1: Example 1
         String s1 = "anagram";

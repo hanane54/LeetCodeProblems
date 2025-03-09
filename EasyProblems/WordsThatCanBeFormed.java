@@ -2,9 +2,7 @@
 // Memory 45.75MB Beats 9.53%
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class WordsThatCanBeFormed {
     public int countCharacters(String[] words, String chars) {

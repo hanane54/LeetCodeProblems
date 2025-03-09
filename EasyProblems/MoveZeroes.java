@@ -29,7 +29,7 @@ public class MoveZeroes {
     }
 
     public static void main(String[] args) {
-        MoveZeros solution = new MoveZeros();
+        MoveZeroes solution = new MoveZeroes();
 
         // Test Case 1: Given example
         System.out.println("Test Case 1: Original example");

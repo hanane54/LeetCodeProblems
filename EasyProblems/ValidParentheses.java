@@ -36,7 +36,7 @@ class ValidParentheses {
     }
 
     public static void main(String[] args) {
-        Parentheses checker = new Parentheses();
+        ValidParentheses checker = new ValidParentheses();
         
         // Test cases
         String[] testCases = {

@@ -2,7 +2,6 @@
 // test cases are confusing and not well implemented
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Arrays;
 
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
