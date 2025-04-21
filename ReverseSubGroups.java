@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
+// can be found on GFG : https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1
+
 class ReverseSubGroups {
 
     // Function to reverse every sub-array group of size k.
