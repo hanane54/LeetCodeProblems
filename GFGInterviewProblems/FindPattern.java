@@ -1,3 +1,4 @@
+package GFGInterviewProblems;
 import java.util.ArrayList;
 
 class FindPattern {
