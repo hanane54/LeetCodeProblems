@@ -1,3 +1,4 @@
+package GFGInterviewProblems;
 // Though I am not convinced how this worked !! 
 // problem can be found on GFG: https://www.geeksforgeeks.org/problems/third-largest-element/1
 import java.util.Arrays;

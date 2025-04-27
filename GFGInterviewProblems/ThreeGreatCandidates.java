@@ -1,3 +1,4 @@
+package GFGInterviewProblems;
 // Problem can be found on : https://www.geeksforgeeks.org/problems/three-great-candidates0515/1
 // works but not efficient in terms of time complexity
 import java.util.Arrays;

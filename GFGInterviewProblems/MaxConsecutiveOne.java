@@ -1,3 +1,4 @@
+package GFGInterviewProblems;
 // Did it from the third attempt
 // can be found on GFG : https://www.geeksforgeeks.org/problems/max-consecutive-one/1
 

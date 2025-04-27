@@ -1,3 +1,4 @@
+package GFGInterviewProblems;
 // problem can be found on GFG : https://www.geeksforgeeks.org/problems/second-largest3735/1
 class SecondLargestElement {
     public int getSecondLargest(int[] arr) {
