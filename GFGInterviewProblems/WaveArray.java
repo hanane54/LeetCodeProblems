@@ -1,3 +1,5 @@
+// fixed from first attempt
+// can be found on GFG: https://www.geeksforgeeks.org/problems/wave-array-1587115621/1
 class WaveArray {
     public static void convertToWave(int[] arr) {
         // code here
