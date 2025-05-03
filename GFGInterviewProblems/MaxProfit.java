@@ -1,4 +1,7 @@
-package GFGInterviewProblems;
+// Worked but exceeds limit time compllexity o(n°2) and space complexity O(1)
+// can be found on https://www.geeksforgeeks.org/problems/buy-stock-2/1
+
+
 
 class MaxProfit {
     public int maximumProfit(int prices[]) {
