@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MissingRanges {
-    public List<List<Integer>> missingRanges(int[] arr, int lower, int upper) {
+      public List<List<Integer>> missingRanges(int[] arr, int lower, int upper) {
         // int prev=lower-1; 
         // int end = upper+1;
         // for ( int i=0; i<arr.lengt; i++ ){
