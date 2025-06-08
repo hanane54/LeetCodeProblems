@@ -1,3 +1,8 @@
+// can be found on https://leetcode.com/problems/merge-sorted-array
+// Runtime 0ms Beats 100.00%
+// Memory 42.36MB Beats 42.62%
+// done from the first submission
+
 class MergeSorted {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] mergedArr = new int[m + n];
