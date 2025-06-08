@@ -1,3 +1,7 @@
+// using recursive call to check if two trees are the same 
+// can be found on https://leetcode.com/problems/same-tree/
+// 
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
