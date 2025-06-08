@@ -1,5 +1,10 @@
 import java.util.*;
 
+// can be found on https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+// Memory 43.84 MB Beats 94.44%
+// Runtime 0 ms Beats 100.00%
+
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
