@@ -5,8 +5,6 @@
 // Memory 62.01 MB Beats 18.94%
 
 
-import java.util.*;
-
 class MaxProfit {
     public int maxProfit(int[] prices) {
         // int n = prices.length; 
