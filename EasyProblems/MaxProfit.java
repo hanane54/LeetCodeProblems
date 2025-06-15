@@ -1,6 +1,10 @@
 // can be found on https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=study-plan-v2&envId=top-interview-150
 // Time Complexity: O(n^2) thus, worked for some cases but not for all ( time limit exceeded )
 // I then optimized it using a different approach
+// Runtime 2 ms Beats 74.92%  
+// Memory 62.01 MB Beats 18.94%
+
+
 import java.util.*;
 
 class MaxProfit {
