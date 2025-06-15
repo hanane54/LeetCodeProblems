@@ -1,3 +1,9 @@
+// can be found on https://leetcode.com/problems/is-subsequence/?envType=study-plan-v2&envId=top-interview-150
+// Runtime 0 ms Beats 100.00%
+// Memory 41.34 MB Beats 86.19%
+
+
+
 class IsSubsequence {
     public boolean isSubsequence(String s, String t) {
         int sLen = s.length(); 
