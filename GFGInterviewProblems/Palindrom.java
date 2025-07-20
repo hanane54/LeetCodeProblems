@@ -1,3 +1,6 @@
+// Runtime 3 ms Beats 72.89% Analyze Complexity
+// Memory 42.73 MB Beats 95.50%
+
 class Palindrom {
     public boolean isPalindrome(String s) {
 
