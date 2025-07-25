@@ -1,4 +1,8 @@
 package TopInterview150;
+// can be found on https://leetcode.com/problems/ransom-note/submissions/1711207839/?envType=study-plan-v2&envId=top-interview-150
+// Runtime 14 ms Beats 28.22%
+// Memory 45.52 MB Beats 9.89%
+
 
 import java.util.HashMap;
 import java.util.Map;
